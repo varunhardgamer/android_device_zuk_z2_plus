@@ -148,7 +148,9 @@ PRODUCT_PACKAGES += \
     libhwc2on1adapter \
     libgenlock \
     liboverlay \
-    libtinyxml
+    libtinyxml \
+    libdisplayconfig \
+    libqdMetaData.system
 
 # Doze mode
 PRODUCT_PACKAGES += \
