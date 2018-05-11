@@ -1,0 +1,4 @@
+allow bluetooth firmware_file:dir search;
+allow bluetooth firmware_file:file { read getattr open };
+allow bluetooth firmware_file:lnk_file read;
+allow bluetooth wcnss_filter:unix_stream_socket connectto;

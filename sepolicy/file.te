@@ -1,0 +1,2 @@
+allow ueventd vfat:file { read getattr open };
+allow vold persist_file:dir { read ioctl open };

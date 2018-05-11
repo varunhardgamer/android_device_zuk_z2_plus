@@ -1,0 +1,9 @@
+allow init at_device:chr_file { write ioctl };
+allow init hwservicemanager:binder { transfer call };
+allow init rild:binder call;
+allow init self:binder call;
+allow init self:socket read;
+allow init shell_exec:file execute_no_trans;
+allow init sysfs_lowmemorykiller:dir write;
+allow init vendor_file:file execute_no_trans;
+
